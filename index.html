@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andrew Watson">
+        <title>CARES Winlink Net Week 151 checkins</title>
+
+        <style>
+            body {
+                /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+                font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 1rem;
+                font-weight:400;
+                color: #1a1a1a;
+                background-image: none;
+                background: #e8e8e8;
+
+                /* auto margins centre this container within its parent */
+
+                /* border: thin solid red; */
+                margin-left: auto;
+                margin-right: auto;
+                width: 85%;
+                margin-top: 20px;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 40px;
+            }
+
+            h1, h2 {
+                color: rgb(60, 60, 60);
+                font-weight: bold;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+
+            div.auxc-checkin {
+                background-color: #F0F0F0;
+                border: thin solid darkgrey;
+                border-radius: 10px;
+                padding-left: 5%;
+                padding-right: 5%;
+                /* padding-bottom: 40px; */
+                margin-top: 20px;
+                overflow: hidden;
+            }
+
+            div.exercise-requirements {
+                /* background-color: lightgrey; */
+                border: thin solid darkgrey;
+                border-radius: 10px;
+                padding-right: 5%;
+                margin-top: 20px;
+                font-size: 1rem;
+            }
+            
+            div.exercise-requirements li {
+                font-size: 1rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .checkin-sentence {
+                font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+                /* font-family: Courier New, monospace; */
+                color: darkgreen;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            .utility_thumbnail {
+                border-style:none;
+                float:none;
+                padding-left: 50px;
+                /* padding-right: 20px; */
+                padding-top: 0px;
+                padding-bottom: 20px; 
+            }
+
+            .utility_thumbnail:hover {
+                transform: scale(1.05);
+            }
+            
+            #jump-to-AUXC-block {
+                display: flex;
+                align-items: center; 
+            }
+
+            #AUXC-jump-paragraph {
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            #AUXC-select-list {
+                display: inline-block;
+            }
+        </style>
+
+        <script>
+            function jumpToAUXC() {
+                const selectElement = document.getElementById("AUXC-select-list");
+                const selectedValue = selectElement.value;
+
+                if(selectedValue) { // Only jump if a valid option is selected
+                    window.location.hash = selectedValue;
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>CARES Winlink Net: Week 152 exercise</h1>
+
+        <p>Your teammates' exercise material is below. You should see their CERT
+        Form #1. Each AUXC should have at least one thumbnail. Click on the
+        thumbnail to see the original image.</p>
+        
+        <p>Use the browser's back button to return to this page from the full-sized
+            image.</p>
+
+        <p> Your exercise requirements this week were to:</p>
+        <div class="exercise-requirements">
+            <ol>
+                <li>List four or five aspects of Winlink Express use you are
+                most comfortable with. Explain why you consider yourself
+                comfortable with these skills. I'm not judging, nor am I
+                soliciting kudos. I'm genuinely interested in your
+                thoughts.</li>
+
+                <li>List a few things you need to work on or where some further
+                or more in-depth training would help. This can include Winlink
+                Express features or process-related things.</li>
+
+                <li>What's good and what's not so good about the format of this
+                training net.</li>
+
+                <li>Would you like to have a go at being the control operator
+                for this net? If you don't think you could manage it yourself,
+                then would you consider shadowing a more experienced operator?</li>
+
+                <li>What are we missing? Keep it Winlink Express usage or
+                process specific, please.</li>
+            </ol>
+        </div>
+
+        <h2>Responses to the questions</h2>
+        <p>The responses are presented in sequence by the question</p>
+        <!-- <div id="jump-to-AUXC-block">
+            <p id="AUXC-jump-paragraph">Jump to a specific AUXC's check-in material:</p>
+
+            <select id=AUXC-select-list onchange="jumpToAUXC()">
+                <option value="">Select an AUXC</option>
+                <option value="AUXC_K7QQB">K7QQB</option>
+            </select>
+        </div> -->
+        
+        <div class="auxc-checkin" id="AUXC_CALLSIGN">
+            <p class="checkin-sentence">
+                Question 1: List four or five aspects of Winlink Express use you are
+                most comfortable with. Explain why you consider yourself
+                comfortable with these skills. I'm not judging, nor am I
+                soliciting kudos. I'm genuinely interested in your
+                thoughts.
+            </p>
+            <p>Using ICS-309's to create Net Logs - Effective for AUXC's with
+            poor hand writing and also provides time stamp</p>
+            <p>Posting GPS Reports - If deployed, people need to know where we
+            are</p>
+            <p>Implementing Tactical Addresses - Critical when being
+            deployed</p>
+            <p>Comfortable with WLE Forms - I constantly review existing and new
+            forms to be ready when asked for one</p>
+            <p>I am comfortable with all the aspects of Winlink that have been
+            exercised so far. Occasionally have trouble finding the menu item I
+            know is out there but cannot remember where it is. But eventually I
+            get there, if only after consulting HELP. How to fill in the blanks
+            on ICS Forms can still be a puzzle. Message numbering still a bit
+            fuzzy as well.</p>
+            <p>Running different types of sessions (Packet, VARA FM, etc.)</p>
+            <p>Compiling messages through forms</p>
+            <p>Creating global folder and moving messages</p>
+            <p>I am good with the 213 form, 309 and tactical addresses.</p>
+            <p>Finding potential gateways depending on my location</p>
+            <p>Use of tactical address, when required</p>
+            <p>sending attachments, especially photos, getting them small enough to sending</p>
+            <p>VHF and HF operation as well as telnet over my mobile hotspot</p>
+            <p>After three years of practice, I feel pretty comfortable with
+            messages, re-sizing, forms, tactical addresses, catalog requests,
+            etc.</p>
+            <p>I am very comfortable with the using Vara FM to send radio traffic.</p>
+            <p>I feel competent sending forms and replying.</p>
+            <p>I can archive and save files</p>
+            <p>I can use folders effectively</p>
+            <p>I can do attachments with success</p>
+            <p>Comfortable with forms and attachments. No issues replying to
+            forms. No issue with resizing photographs. I can get images out of
+            my phone with the right USB cable. I can handle most of the Windows
+            configuration issues that come up, although sometimes it is amazing
+            how long it takes to get things working for others.</p>
+            <p>Creating Winlink messages</p>
+            <p>Using tactical addresses</p>
+            <p>Using ICS USA forms</p>
+            <p>Attaching/resizing/rotating/cropping images</p>
+            <p>Using RF to transmit/receive Winlink messages (although I am
+            RMS-limited due to location)</p>
+            <p>Creating and using Personal and Global folders</p>
+            <p>I think that I am fairly comfortable with at least the basic
+            functions of Winlink Express. Basic messages, forms, and using
+            tactical addresses (although occasionally we forget to switch to the
+            tactical address as the sender).</p>
+            <p>Generally, I can troubleshoot why connections are not being made
+            or why the computer and the radio won't talk to each other. This is
+            a hazard of having multiple radios, different soundcards, and more
+            than one computer that has WLE on it. That troubleshooting would be
+            a good exercise, though, for a field operation. Random computer,
+            random radio, random sound card ? make it work.</p>
+
+            <p>Using winlink express in general. Sending and receiving messages.
+            Using forms including catalog requests. Attaching files and images.
+            Keeping winlink express updated.</p>
+        </div>
+
+        <div class="auxc-checkin" id="AUXC_CALLSIGN">
+            <p class="checkin-sentence">
+                Question 2: List a few things you need to work on or where some further
+                or more in-depth training would help. This can include Winlink
+                Express features or process-related things.
+            </p>
+            <p>Digipeating - I need to practice more so it becomes second
+            nature</p>
+            <p>Creating Forms - Same as above and currently have not been able
+            to take any sent to me and populate web page with it</p>
+            <p>My problems with Winlink are ones of self-induced errors; e.g.,
+            typing errors, forgetting to use/disable Tactical Address, wrong
+            week number, carelessness in general.</p>
+            <p>Changing a RMS station on a form; even after successfully
+            connecting as a test, filling out the form and then trying to send
+            it only to find out the RMS no long accepts the connection to send
+            the form
+            </p>
+            <p>It may be beneficial (and more work for the net control person
+            unless done in a small work group in advance), to try and inject
+            scenarios that may be experienced during an event. While taking
+            pictures, attaching, etc. are all valuable skills, putting those
+            into context via an event. Perhaps, the whole 6 week cycle is
+            managed as a shift and each week is essentially a new task within
+            that operating period. It's kind of how the tasks each week are done
+            getting more difficult but in this case, it would be replying to a
+            form, sending a form, getting a response and then adding the folders
+            for open/closed messages.</p>
+            <p>Folks need more practice and experience setting up their own call
+            sign and then a tactical call sign on a different computer. It's
+            also the issue of closing out and removing their call sign but
+            leaving a club call on the computer. The process of establishing a
+            work station at a remote site using city/county gear is a bit
+            different and very limited for practicing. For those in LO,
+            encourage somehow the usage of city equipment where they borrow an
+            orange kit or stop by and use the work station at 214.</p>
+            <p>I need to understand the GPS features more. That is still unclear
+            along with mapping.</p>
+            <p>I can send forms, but which form to use? This is unclear.</p>
+            <p>GPS input (just need to work out usb ports on my device)</p>
+            <p>I'm less comfortable with all of the steps to be completed at the
+            end of a shift, mainly due to lack of repetition. I've got the
+            write-up about what's required, but haven't had to do it for some
+            time. Also, I need to be more diligent about backing up and
+            archiving.</p>
+            <p>I feel pretty good with the tool. Been using it for years so it
+            doesn't surprise me often.</p>
+            <p>I worry about the group understanding handoffs at the end of a
+            shift. This means global folders, what to do to generate logs that
+            are useful, and how to deal with tactical addresses when handing
+            off. All process stuff.</p>
+            <p>On the process side, making decisions about message numbering. In
+            order for the 309 to work, we probably have to put our message
+            numbers in the Subject line. When is a photo of a message
+            acceptable, and when do we type it in. the 213 is the most used, but
+            we should explore others, too more often. I do not think we should
+            do this, but it would be great if we could find an adult education
+            class for our "computer tech challenged" members we could refer them
+            to. It's basic stuff. File space, text editor, file types,
+            configuring the sound card, etc.</p>
+            <p>Transferring images from cellphone-to-computer using a data transfer cable</p>
+            <p>Transferring Winlink/VARA FM credentials from a thumb drive to a computer</p>
+            <p>Archiving Winlink messages</p>
+            <p>I would like to figure out DireWolf and start using that for my
+            AX.25 functionality. In addition, some more work on backup and
+            cross-computer work (I believe you use WinMerge?) so I can move old
+            messages off old computers and build an archive of the stuff. It
+            would also be helpful for the KD7ZDO system(s).</p>
+            
+            <p>I would also like to do some more with pre-planning for RMS' when
+            not connected to the internet. For instance, you know you are going
+            camping and there will be no internet where you are, how do you prep
+            for 2m/70cm RMS' that will be close to your remote location? It
+            might be an interesting exercise to have people attach a list of
+            RMS' for a designated location for one of their check-ins.</p>
+            
+            <p>Not for everyone, but we should consider perhaps making some form
+            templates we can use. Your useage of the CERT Form 1 is a great
+            example. If we know that these are things we are going to use, the
+            right answer would be to have a form, just like the 213 that we
+            could toss the data into and send as a message. I get we don't
+            currently have that, but it is something that we could develop. What
+            other forms would be want? I believe I heard Aaron talking about
+            having a "windshield survey" form. Perhaps get a group of "CARES
+            Forms" that people can download and install in their templates. I
+            would include things like the ICS213 just so basically everything
+            our operators would need would be in once place and there wouldn't
+            be a question of which version of a form to be using (there are, I
+            believe, at least three different ICS 213 templates, all of which
+            are formatted differently).</p>
+            
+            <p>I would also like to see the use of a Winlink Post Office
+            expanded. I have some ideas there, I think...</p>
+
+            <p>Generating ICS-309's. How much info is too much. Should it just
+            include received messages or sent and received messages</p>
+        </div>
+
+        <div class="auxc-checkin" id="AUXC_CALLSIGN">
+            <p class="checkin-sentence">
+                Question 3: What's good and what's not so good about the format of this
+                training net.
+            </p>
+            <p>I think it's great and I appreciate the constructive feedback</p>
+            <p>I like the design of the exercise 6-week series approach.
+            Differences between Net Controllers are sometimes appreciated, other
+            time not so much. But even then, the variety is good because it can
+            exercise the same skills in slightly different ways.</p>
+            <p>With such limited time, the exercises aren't too time consuming
+            to complete in a weeks time but I think they can be overwhelming for
+            new folks. Continuing to advocate that they can just send a simple
+            message with a check-in string is great but then on the flip side,
+            it doesn't do much to encourage completing the tasks either.</p>
+            <p>This style of training is good for me. Once a week is not too
+            much and not too little.</p>
+            <p>I like there is no "classroom" style training. You are given
+            a task. It may take a little research to figure out what to do.
+            Although, if needed, support is available.</p>
+            <p>the bad ... nothing comes to mind ... except its only 6 weeks long</p>
+            <p>Pros: knowing that there's a weekly task to be accomplished.
+            Cons: at some point, we may run out of areas to be explored!</p>
+            <p>I like the format a lot. The only area where I have questions
+            sometimes is feedback on if what I asked was right. Some Net
+            controls do a great job of writing up what was expected, others are
+            just silent.</p>
+            <p>The format is fine. It's a weekly event that I know is coming. I
+            try to do it every Friday.</p>
+            <p>Good: Always thinking about Winlink procedures on a weekly, if
+            not daily, basis. Keeps one close to Winlink.</p>
+            <p>Not-so good: Some assignments can be very time-consuming. Some of
+            the assignments require research on subjects that are not really
+            Winlink-related.</p>
+            <p>I think that the relatively short duration of a cycle is a good
+            thing ? it allows people to "start" at the "beginning" of the cycle.
+            When I was NCS, I went with the idea that my cycle was one shift
+            during an event/deployment (and a relatively slow one at that).</p>
+            
+            <p>I would like to see a "get started" guide that we can link people
+            to so new folks can maybe feel more comfortable getting started. I
+            know that early on there was some in-depth explanations and such,
+            and I appreciate the discussions from NCS operators about the
+            reasoning or logic behind what they did and how things work. But I
+            think that we could maybe produce a one-page sheet that breaks down
+            the check-in sentence, some basic functions (enabling/disabling a
+            tactical address, resizing images, attaching files, and retrieving
+            attachments). If there is interest, I would be willing to help
+            develop that guide.</p>
+
+            <p>At times the tasks get overly complicated and take too much
+            time.</p>
+        </div>
+
+        <div class="auxc-checkin" id="AUXC_CALLSIGN">
+            <p class="checkin-sentence">
+                Question 4: Would you like to have a go at being the control operator
+                for this net? If you don't think you could manage it yourself,
+                then would you consider shadowing a more experienced operator?
+            </p>
+            <p>As discussed prior, I am indeed interested, but currently cannot
+            commit to any upcoming 6-week cycles</p>
+            <p>No.</p>
+            <p>Unfortunately, I don't think I have the time available at
+            present.</p>
+            <p>At this point I am not interested in being a control operator. My
+            schedule is all over the place so I can't be consistent.</p>
+            <p>Eventually. I need a few more sessions. Just too new still.</p>
+            <p>I'm willing to help folks who feel like their Winlink skill set
+            isn't sufficiently developed to be net control. I think folks are
+            doubly-challenged: they need to handle the mechanics of the net, and
+            they need to come up with new ways to challenge net
+            participants.</p>
+            <p>I would like to be control operator in the future, but my medical
+            issues are challenging by capacity right now. That will have to
+            wait.</p>
+            <p>No/no. (My computer skills and knowledge are insufficient.)</p>
+            <p>I have taken the NCS job before, and I would not mind taking it
+            again (perhaps some time in the new year). I have, at the same time,
+            recommended to a couple of people that I thought would be good
+            candidates for the NCS job that they consider it. One of the nice
+            things that we have is the Common Operating Picture (thank you,
+            Andrew, for keeping that up) ? with a list of folks who have been
+            NCS before, you always have people you can talk to ? the team is
+            there.</p>
+            
+            <p>It often sounds silly, but it really is true that one of the best
+            ways to learn something is to teach it. I found ways that I
+            unintentionally broke things and won't be making those mistakes
+            again in the future. Having to go through a couple dozen check-ins a
+            week shows you what details are often missed, and is good training
+            for how to politely correct behaviour. This is something we will
+            need to do with our served agency partners occasionally (how do we
+            tell someone that we can't send something in a kind but firm way
+            kind of thing).</p>
+
+            <p>No time.</p>
+        </div>
+
+        <div class="auxc-checkin" id="AUXC_CALLSIGN">
+            <p class="checkin-sentence">
+                Question 5: What are we missing? Keep it Winlink Express usage or
+                process specific, please.
+            </p>
+            <p>A Live Exercise on a Saturday from multiple subgroups/locations</p>
+            <p>The flow of paper through the Winlink workstation could use some
+            definition, IMO. From the moment a message arrives (as a verbal,
+            "napkin," 213 Form, formal document, or as an incoming Winlink
+            transmission); through its intermediate handling (whether
+            transcribed to 213 verbatim, edited/paraphrased onto 213,
+            scanned/photographed and attached to 213, printed out); then, if
+            needed, its transmission (how to properly fill in the blanks); and
+            finally its ultimate disposition and storage (hand-off to addressee,
+            paper copies, electronic folders, 309s). And the numbering system,
+            for new and related messages, verbal and Winlink, needs firming
+            up.</p>
+            <p>Perhaps a bit more usage of the "Post Office" configuration so
+            folks gain more understanding on how that works.</p>
+            <p>I think trouble shooting the Winlink connection procedure and
+            computer settings would be a good idea as they are different with
+            some radios.</p>
+            <p>What about non-Winlink Express software? I was specifically
+            thinking of PAT Winlink for LINUX systems.</p>
+            <p>I feel like we've hit the topics that LOFD is expecting.
+            Internals of Winlink Express would be interesting to a few, but not
+            many, of us.</p>
+            <p>I think I mentioned before are actual usage during a call out. I
+            am not sure people remember the How Tos that have been written and
+            what will really happen. I submitted items like how do we do message
+            numbers vs voice and how to integrate the 309? Also the winlink
+            generated 309 misses the message number unless we establish a
+            convention in message titles. All operational stuff for our ops
+            manual.</p>
+            
+            <p>After leading our training intro yesterday I do feel people are
+            getting the message to be active on the net. Just want to make sure
+            we educate on our processes too (sprinkled into the net and
+            meetings).</p>
+            <p>The weekly Winlink Net has proven to be a success in terms of its
+            availability, skills, and learning. Participation is still an issue.
+            Always an issue handling that.</p>
+            <p>From my perspective, nothing is missing. I have come a long way
+            from where I started for which I thank you and the Winlink team.</p>
+
+            <p>The foundations are good. The forms that we are using are the
+            ones that I think we are most likely to use. I like the little
+            quirks that each NCS puts into their cycle ? keeps things fresh and
+            interesting even though most of the tasks at their base level are
+            the same.</p>
+            
+            <p>The main thing that is missing is the urgency that people will
+            feel during a deployment, I think. The chaos, the noise?</p>
+            
+            <p>The other think that we need to do more of is operate from the
+            field. It would be great to have all of our operators be
+            field-capable and practice that regularly.</p>
+
+            <p>Nothing that I can think off.</p>
+        </div>
+    </body>
+</html>
+    
