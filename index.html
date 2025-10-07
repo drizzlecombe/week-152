@@ -8,10 +8,10 @@
         <title>CARES Winlink Net Week 151 checkins</title>
 
         <style>
-            body {
+            :root {
                 /* font-family: Roboto, Helvetica, Arial, sans-serif; */
                 font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
-                font-size: 1rem;
+                font-size: 1em;
                 font-weight:400;
                 color: #1a1a1a;
                 background-image: none;
@@ -20,13 +20,9 @@
                 /* auto margins centre this container within its parent */
 
                 /* border: thin solid red; */
-                margin-left: auto;
-                margin-right: auto;
+                margin: auto;
                 width: 85%;
-                margin-top: 20px;
-                padding-left: 40px;
-                padding-right: 40px;
-                padding-bottom: 40px;
+                margin-top: 0;
             }
 
             h1, h2 {
@@ -40,28 +36,36 @@
 
             h2 {
                 font-size: 1.2rem;
-                margin-top: 20px;
-                margin-bottom: 5px;
+                margin-top: 1em;
+                margin-bottom: 0.5em;
+            }
+
+            a {
+                color: #1a1a1a;
+                text-decoration: none;
+                font-weight: 400;
+            }
+
+            a:hover {
+                font-weight: bold;
+            }
+
+            div {
+                border-radius: 0.5rem;
+                margin-bottom: 0.5em;
+                padding-left: 1em;
+                padding-right: 1em;
+                overflow: hidden;
             }
 
             div.question-responses {
                 background-color: #F0F0F0;
                 border: thin solid darkgrey;
-                border-radius: 10px;
-                padding-left: 5%;
-                padding-right: 5%;
-                /* padding-bottom: 40px; */
-                margin-top: 20px;
-                overflow: hidden;
+                margin-bottom: 1em;
             }
 
             div.exercise-requirements {
-                /* background-color: lightgrey; */
                 border: thin solid darkgrey;
-                border-radius: 10px;
-                padding-right: 5%;
-                margin-top: 20px;
-                font-size: 1rem;
             }
             
             div.exercise-requirements li {
@@ -74,7 +78,7 @@
                 /* font-family: Roboto, Helvetica, Arial, sans-serif; */
                 /* font-family: Courier New, monospace; */
                 color: darkgreen;
-                font-size: 18px;
+                font-size: 1.0rem;
                 font-weight: bold;
                 text-align: left;
                 text-transform: uppercase;
@@ -112,30 +116,35 @@
         <H2> Your exercise this week was to answer the following questions:</h2>
         <div class="exercise-requirements">
             <ol>
-                <li>List four or five aspects of Winlink Express use you are
-                most comfortable with. Explain why you consider yourself
-                comfortable with these skills. I'm not judging, nor am I
-                soliciting kudos. I'm genuinely interested in your
-                thoughts. <a href="#question-one">Go to the responses</a>.</li>
+                <li><a href="#question-one">List four or five aspects of Winlink
+                Express use you are most comfortable with. Explain why you
+                consider yourself comfortable with these skills. I'm not
+                judging, nor am I soliciting kudos. I'm genuinely interested in
+                your thoughts.</a></li>
 
-                <li>List a few things you need to work on or where some further
-                or more in-depth training would help. This can include Winlink
-                Express features or process-related things. <a href="#question-two">Go to the responses</a>.</li>
+                <li><a href="#question-two">List a few things you need to work
+                on or where some further or more in-depth training would help.
+                This can include Winlink Express features or process-related
+                things.</a></li>
 
-                <li>What's good and what's not so good about the format of this
-                training net. <a href="#question-three">Go to the responses</a>.</li>
+                <li><a href="#question-three">What's good and what's not so good
+                about the format of this training net?</a></li>
 
-                <li>Would you like to have a go at being the control operator
-                for this net? If you don't think you could manage it yourself,
-                then would you consider shadowing a more experienced operator? <a href="#question-four">Go to the responses</a>.</li>
+                <li><a href="#question-four">Would you like to have a go at
+                being the control operator for this net? If you don't think you
+                could manage it yourself, then would you consider shadowing a
+                more experienced operator?
+                </a></li>
 
-                <li>What are we missing? Keep it Winlink Express usage or
-                process specific, please. <a href="#question-five">Go to the responses</a>.</li>
+                <li><a href="#question-five">What are we missing? Keep it
+                Winlink Express usage or process specific, please.</a></li>
             </ol>
         </div>
 
         <h2>Responses to the questions</h2>
-        <p>The responses are presented in no specific order and are cut/pasted from your check-in messages. I've not edited the content, but I may have reformatted slightly.</p>
+        <p>The responses are presented in no specific order and are cut/pasted
+        from your check-in messages. I've not edited the content, but I may have
+        reformatted slightly.</p>
         
         <div class="question-responses" id="question-one">
             <p class="question-title">
@@ -472,7 +481,7 @@
         <div class="question-responses" id="question-three">
             <p class="question-title">
                 Question 3: What's good and what's not so good about the format of this
-                training net.
+                training net?
             </p>
             <ul class="response">
             <li>I think it's great and I appreciate the constructive feedback</li>
